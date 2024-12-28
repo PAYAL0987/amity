@@ -1,0 +1,227 @@
+Amity University 2008 B.E Computer Science JAVA (Data types,variables and Arrays) - Question Paper
+Tuesday, 15 January 2013 08:30Web
+Page 1 of 3
+
+Data types,variables and Arrays
+1) What is meant by variable?
+Ans: Variables are locations in memory that can hold values. Before assigning any value to a variable, it must be declared.
+2) elaborate the types of variables in Java? elaborate their uses?
+Ans: Java has 3 types of variables namely, the instance variable, the local variable and the class variable.
+Local variables are used inside blocks as counters or in methods as temporary variables and are used to store info needed by a single method.
+Instance variables are used to describe attributes or the state of a particular object and are used to store info needed by multiple methods in the objects.
+Class variables are global to a class and to all the instances of the class and are useful for communicating ranging from various objects of all the identical class or keeping track of global states.
+3) How are the variables declared?
+Ans: Variables can be declared anywhere in the method definition and can be initialized during their declaration.They are commonly declared before usage at the beginning of the definition.
+Variables with the identical data kind can be declared together. Local variables must be provided a value before usage.
+4) elaborate variable types?
+Ans: Variable kinds can be any data kind that java supports, which includes the 8 primitive data types, the name of a class or interface and an array.
+5) How do you assign values to variables?
+Ans: Values are assigned to variables using the assignment operator =.
+6) What is a literal? How many kinds of literals are there?
+Ans: A literal represents a value of a certain kind where the kind defines how that value behaves.
+There are various kinds of literals namely number literals, character literals,
+boolean literals, string literals,etc.
+7) What is an array?
+Ans: An array is an object that stores a list of items.
+8) How do you declare an array?
+Ans: Array variable shows the kind of object that the array holds.
+Ex: int arr[];
+9) Java supports multidimensional arrays.
+a)True
+b)False
+Ans: a.
+10) An array of arrays can be created.
+a)True
+b)False
+Ans: a.
+11) What is a string?
+Ans: A combination of characters is called as string.
+12) Strings are instances of the class String.
+a)True
+b)False
+Ans: a.
+13) When a string literal is used in the program, Java automatically creates instances of the string class.
+a)True
+b)False
+Ans: a.
+14) Which operator is to create and concatenate string?
+Ans: Addition operator(+).
+15) Which of the subsequent declare an array of string objects?
+a. String[ ] s;
+b. String [ ]s:
+c. String[ s]:
+d. String s[ ]:
+Ans : a, b and d
+16) What is the value of a[3] as the outcome of the subsequent array declaration?
+a. 1
+b. 2
+c. 3
+d. 4
+Ans : d
+17) Which of the subsequent are primitive types?
+a. byte
+b. String
+c. integer
+d. Float
+Ans : a.
+18) What is the range of the char type?
+a. 0 to 216
+b. 0 to 215
+c. 0 to 216-1
+d. 0 to 215-1
+Ans. d
+19) elaborate primitive data types?
+Ans : byte, short, int, long
+float, double
+boolean
+char
+20) elaborate default values of various primitive types?
+Ans : int - 0
+short - 0
+byte - 0
+long - 0 l
+float - 0.0 f
+double - 0.0 d
+boolean - false
+char - null
+21) Converting of primitive kinds to objects can be explicitly.
+a)True
+b)False
+Ans: b.
+22) How do we change the values of the elements of the array?
+Ans : The array subscript expression can be used to change the values of the elements of the array.
+23) What is final varaible?
+Ans : If a variable is declared as final variable, then you can not change its value. It becomes constant.
+24) What is static variable?
+Ans : Static variables are shared by all instances of a class.
+
+
+Operators available in Java
+1) elaborate operators and elaborate the different kinds of operators available in Java?
+Ans: Operators are special symbols used in expressions.
+The subsequent are the kinds of operators:
+Arithmetic operators,
+Assignment operators,
+Increment & Decrement operators,
+Logical operators,
+Biwise operators,
+Comparison/Relational operators and
+Conditional operators
+2) The ++ operator is used for incrementing and the -- operator is used for
+decrementing.
+a)True
+b)False
+Ans: a.
+3) Comparison/Logical operators are used for testing and magnitude.
+a)True
+b)False
+Ans: a.
+4) Character literals are stored as unicode characters.
+a)True
+b)False
+Ans: a.
+5) elaborate the Logical operators?
+Ans: OR(|), AND(&), XOR(^) AND NOT(~).
+6) What is the % operator?
+Ans : % operator is the modulo operator or reminder operator. It returns the reminder of dividing the 1st operand by 2nd operand.
+7) What is the value of 111 % 13?
+a. 3
+b. 5
+c. 7
+d. 9
+Ans : c.
+8) Is &&= a valid operator?
+Ans : No.
+9) Can a double value be cast to a byte?
+Ans : Yes
+10) Can a byte object be cast to a double value ?
+Ans : No. An object cannot be cast to a primitive value.
+11) elaborate order of precedence and associativity?
+Ans : Order of precedence the order in which operators are evaluated in expressions.
+Associativity determines whether an expression is evaluated left-right or right-left.
+12) Which Java operator is right associativity?
+Ans : = operator.
+13) What is the difference ranging from prefix and postfix of -- and ++ operators?
+Ans : The prefix form returns the increment or decrement operation and returns the value of the increment or decrement operation.
+The postfix form returns the current value of all of the expression and then
+performs the increment or decrement operation on that value.
+14) What is the outcome of expression 5.45 + "3,2"?
+a. The double value 8.6
+b. The string ""8.6"
+c. The long value 8.
+d. The String "5.453.2"
+Ans : d
+15) elaborate the values of x and y ?
+x = 5; y = ++x;
+Ans : x = 6; y = six
+16) elaborate the values of x and z?
+x = 5; z = x++;
+Ans : x = 6; z = five
+
+
+Introduction to Java Programming
+1) The Java interpreter is used for the execution of the source code.
+a) actual
+b) False
+Ans: a.
+2) On successful compilation a file with the class extension is created.
+a) actual
+b) False
+Ans: a.
+3) The Java source code can be created in a Notepad editor.
+a) actual
+b) False
+Ans: a.
+4) The Java Program is enclosed in a class definition.
+a) actual
+b) False
+Ans: a.
+5) What declarations are needed for every Java application?
+Ans: A class and the main( ) method declarations.
+6) elaborate the 2 parts in executing a Java program and their purposes?
+Ans: 2 parts in executing a Java program are:
+Java Compiler and Java Interpreter.
+The Java Compiler is used for compilation and the Java Interpreter is used for execution of the application.
+7) elaborate the 3 OOPs principles and describe them?
+Ans : Encapsulation, Inheritance and Polymorphism are the 3 OOPs
+Principles.
+Encapsulation:
+Is the Mechanism that binds together code and the data it manipulates, and keeps both safe from outside interference and misuse.
+Inheritance:
+Is the process by which 1 object acquires the properties of a different object.
+Polymorphism:
+Is a feature that allows 1 interface to be used for a general class of actions.
+8) What is a compilation unit?
+Ans : Java source code file.
+9) What output is displayed as the outcome of executing the subsequent statement?
+System.out.println("// Looks like a comment.");
+a. // Looks like a comment
+b. The statement outcomes in a compilation fault
+c. Looks like a comment
+d. No output is displayed
+Ans : a.
+10) In order for a source code file, containing the public class Test, to successfully compile, which of the subsequent must be true?
+a. It must have a package statement
+b. It must be named Test.java
+c. It must import java.lang
+d. It must declare a public class named Test
+Ans : b
+11) elaborate identifiers and what is naming convention?
+Ans : Identifiers are used for class names, method names and variable names. An identifier may be any descriptive sequence of upper case & lower case letters,numbers or underscore or dollar sign and must not start with numbers.
+12) What is the return kind of program’s main( ) method?
+Ans : void
+13) What is the argument kind of program’s main( ) method?
+Ans : string array.
+14) Which characters are as 1st characters of an identifier?
+Ans : A – Z, a – z, _ ,$
+15) elaborate various comments?
+Ans : 1) // -- single line comment
+2) /* --
+*/ multiple line comment
+3) /** --
+*/ documentation
+16) What is the difference ranging from constructor method and method?
+Ans : Constructor will be automatically invoked when an object is created. Whereas method has to be call explicitly.
+17) What is the use of bin and lib in JDK?
+Ans : Bin contains all tools such as javac, applet viewer, awt tool etc., whereas Lib
+contains all packages and variables.
